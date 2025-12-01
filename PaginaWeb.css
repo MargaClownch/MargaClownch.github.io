@@ -1,0 +1,78 @@
+table, th, td {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+    background-color: #d30a0a;
+    color: #ffffff;
+    border-collapse: collapse;
+    padding: 5px;
+    margin-left: 37%;
+    margin-right: 37%;
+
+
+}
+body  {
+    background-color: #bfbfb8;
+    text-align: center;
+}
+p  {
+    padding-right: 500px;
+    padding-left: 500px;
+}
+head  {
+    background-color: #bfbfb8;
+    text-align: center;
+}
+nav,  a  {
+    a:link {
+        color: #d30a0a;
+    }
+    a:visited {
+        color: #d30a0a;
+    }
+    a:hover {
+        color: #d30a0a;
+    }
+    padding: 15px;
+
+}
+h1,  h2 {
+
+}
+footer {
+    background-color: #d30a0a;
+
+}
+form {
+    background-color: #bfbfb8;
+    padding: 15px;
+    border-radius: 10px;
+}
+label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+
+}
+input, select, textarea, button  {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid black;
+    background-color: #d30a0a;
+    color: #ffffff;
+}
+button {
+    background-color: #d30a0a;
+    color: white;
+    border: none;
+    margin-top: 15px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #680303;
+}
