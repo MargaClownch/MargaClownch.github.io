@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <title>Cafés Manolo - El mejor café de la despensa</title>
+</head>
+
+<body class="bg-stone-50 text-stone-800 font-sans antialiased">
+
+    <header class="sticky top-0 z-50 bg-white/90 backdrop-blur-sm shadow-sm border-b border-stone-200">
+        <div class="mx-auto max-w-6xl p-4 flex flex-col md:flex-row justify-between items-center">
+            <div class="flex items-center gap-2 mb-4 md:mb-0">
+                <span class="text-3xl">☕</span>
+                <h1 class="text-2xl font-bold tracking-tight text-amber-900">
+                    Cafés Manolo
+                </h1>
+            </div>
+
+            <nav class="flex gap-6 text-sm font-medium text-stone-600">
+                <a href="#Productos" class="hover:text-amber-700 transition-colors">Productos</a>
+                <a href="#Procedencia" class="hover:text-amber-700 transition-colors">Procedencia</a>
+                <a href="#Trabaja" class="hover:text-amber-700 transition-colors">Empleo</a>
+                <a href="#Contacto" class="hover:text-amber-700 transition-colors">Contacto</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="relative bg-stone-900 py-20 px-6 text-center text-white overflow-hidden">
+            <div class="absolute inset-0 opacity-40">
+                <img src="https://images.unsplash.com/photo-1497935586351-b67a49e012bf?ixlib=rb-1.2.1&auto=format&fit=crop&w=1920&q=80" class="w-full h-full object-cover" alt="Café de fondo">
+            </div>
+            <div class="relative z-10 max-w-3xl mx-auto">
+                <h2 class="text-4xl md:text-5xl font-extrabold mb-4 text-amber-400">Café 100% Local</h2>
+                <p class="text-xl text-stone-200">Tan local que lo cultivo detrás de la cocina.</p>
+                <a href="#Productos" class="mt-8 inline-block bg-amber-600 hover:bg-amber-700 text-white font-bold py-3 px-8 rounded-full transition-transform hover:scale-105 shadow-lg">
+                    Ver Menú
+                </a>
+            </div>
+        </section>
+
+        <section id="Productos" class="py-16 px-6 mx-auto max-w-6xl">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-bold text-amber-900">Nuestra Selección</h2>
+                <p class="text-stone-500 mt-2">Precios ajustados, calidad dudosa pero con cariño.</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                
+                <div class="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-xl transition-shadow border border-stone-100">
+                    <div class="h-48 bg-stone-200">
+                        <img src="https://images.unsplash.com/photo-1559496417-e7f25cb247f3?auto=format&fit=crop&w=400&q=80" class="w-full h-full object-cover" alt="Café solo">
+                    </div>
+                    <div class="p-5 text-center">
+                        <h3 class="font-bold text-lg mb-2">Café Solo</h3>
+                        <p class="text-sm text-stone-500 mb-4">Negro como mi futuro.</p>
+                        <span class="inline-block bg-amber-100 text-amber-800 px-3 py-1 rounded-full font-bold">2.00 €</span>
+                    </div>
+                </div>
+
+                <div class="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-xl transition-shadow border border-stone-100">
+                    <div class="h-48 bg-stone-200">
+                        <img src="https://images.unsplash.com/photo-1541167760496-1628856ab772?auto=format&fit=crop&w=400&q=80" class="w-full h-full object-cover" alt="Café otro color">
+                    </div>
+                    <div class="p-5 text-center">
+                        <h3 class="font-bold text-lg mb-2">Café de otro color</h3>
+                        <p class="text-sm text-stone-500 mb-4">Ni idea de por qué es así.</p>
+                        <span class="inline-block bg-amber-100 text-amber-800 px-3 py-1 rounded-full font-bold">3.00 €</span>
+                    </div>
+                </div>
+
+                <div class="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-xl transition-shadow border border-stone-100">
+                    <div class="h-48 bg-stone-200">
+                        <img src="https://images.unsplash.com/photo-1572442388796-11668a67e53d?auto=format&fit=crop&w=400&q=80" class="w-full h-full object-cover" alt="Café Pijo">
+                    </div>
+                    <div class="p-5 text-center">
+                        <h3 class="font-bold text-lg mb-2">Café Pijo</h3>
+                        <p class="text-sm text-stone-500 mb-4">Viene con dibujo en la espuma.</p>
+                        <span class="inline-block bg-amber-100 text-amber-800 px-3 py-1 rounded-full font-bold">7.50 €</span>
+                    </div>
+                </div>
+
+                <div class="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-xl transition-shadow border border-stone-100">
+                    <div class="h-48 bg-stone-200">
+                        <img src="https://images.unsplash.com/photo-1728383561273-77d94572790c?fm=jpg&amp;q=60&amp;w=3000&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0" class="w-full h-full object-cover" alt="Con leche">
+                    </div>
+                    <div class="p-5 text-center">
+                        <h3 class="font-bold text-lg mb-2">Café con Leche</h3>
+                        <p class="text-sm text-stone-500 mb-4">El clásico que nunca falla.</p>
+                        <span class="inline-block bg-amber-100 text-amber-800 px-3 py-1 rounded-full font-bold">2.50 €</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="Procedencia" class="bg-stone-100 py-16 px-6">
+            <div class="mx-auto max-w-5xl flex flex-col md:flex-row items-center gap-10">
+                <div class="md:w-1/2">
+                    <img src="https://images.unsplash.com/photo-1593714050204-dfad29752089?q=80&w=848&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="rounded-2xl shadow-lg rotate-2 hover:rotate-0 transition-transform duration-500" alt="Huerto de café">
+                </div>
+                <div class="md:w-1/2">
+                    <h2 class="text-3xl font-bold text-amber-900 mb-4">El Origen (Dudoso)</h2>
+                    <div class="prose text-stone-700 text-lg leading-relaxed">
+                        <p>
+                            En Cafés Manolo apostamos por el producto de kilómetro cero. Tan cero que el kilómetro empieza y acaba en mi casa.
+                        </p>
+                        <p class="mt-4 font-medium italic border-l-4 border-amber-500 pl-4">
+                            "Somos un grupo de café completamente local, tengo el huerto o lo que sea que dé café en la despensa de atrás plantao."
+                        </p>
+                        <p class="mt-4 text-sm text-stone-500">
+                            *Nota legal: Sanidad aún no ha pasado por aquí, pero mi cuñado dice que está rico.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="Trabaja" class="py-16 px-6 mx-auto max-w-3xl text-center">
+            <div class="bg-white p-8 rounded-3xl shadow-xl border border-stone-200 relative overflow-hidden">
+                <div class="absolute top-0 right-0 -mt-4 -mr-4 w-24 h-24 bg-amber-100 rounded-full opacity-50 blur-xl"></div>
+
+                <h2 class="text-3xl font-bold text-stone-900 mb-6">¿Buscas Trabajo? 🎲</h2>
+                <p class="text-stone-600 mb-8 leading-relaxed">
+                    Si tienes un doctorado, título universitario, carrera de comunicación audiovisual o programación y no encuentras trabajo porque el mercado está cascado...
+                    <br><br>
+                    <span class="font-bold text-amber-700">Tira tu CV aquí.</span> De las 1000 aplicaciones que me llegarán (porque somos más gente que curro), tiraré un dado y el que salga gana. ¡Suerte!
+                </p>
+
+                <form class="max-w-md mx-auto space-y-4">
+                    <input type="email" placeholder="Tu correo electrónico" class="w-full px-4 py-3 rounded-lg border border-stone-300 focus:ring-2 focus:ring-amber-500 focus:border-transparent outline-none transition-all">
+                    
+                    <div class="border-2 border-dashed border-stone-300 rounded-lg p-6 hover:bg-stone-50 cursor-pointer transition-colors">
+                        <span class="text-stone-400 text-sm">Arrastra tu PDF aquí (o tu tesis doctoral)</span>
+                    </div>
+
+                    <button type="button" class="w-full bg-stone-900 hover:bg-black text-white font-bold py-3 rounded-lg transition-colors shadow-lg">
+                        Enviar y rezar 🙏
+                    </button>
+                </form>
+            </div>
+        </section>
+
+        <footer id="Contacto" class="bg-stone-900 text-stone-400 py-10 px-6">
+            <div class="mx-auto max-w-5xl flex flex-col md:flex-row justify-between items-center gap-6">
+                <div>
+                    <h3 class="text-white text-xl font-bold mb-2">Cafés Manolo</h3>
+                    <p class="text-sm">Calle Falsa 123, Bajo B (Toca el timbre fuerte).</p>
+                </div>
+                <div class="flex gap-4">
+                    <a href="#" class="hover:text-amber-400 transition-colors">Instagram</a>
+                    <a href="#" class="hover:text-amber-400 transition-colors">Twitter</a>
+                    <a href="#" class="hover:text-amber-400 transition-colors">LinkedIn</a>
+                </div>
+                <div class="text-xs text-stone-600">
+                    &copy; 2026 Cafés Manolo. Todos los derechos reservados (creo).
+                </div>
+            </div>
+        </footer>
+
+    </main>
+</body>
+</html>
